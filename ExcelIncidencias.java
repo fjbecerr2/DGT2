@@ -20,9 +20,6 @@ import java.util.Random;
 import java.io.*;
 import java.util.HashMap;
 
-import com.opencsv.CSVReader;
-
-//TEST
 import org.apache.commons.csv.*;
 
 /**
@@ -34,9 +31,6 @@ public final class ExcelIncidencias{
 
 	private final String SEPARADOR ="\\;";
 	private String INICIOLINEA ="";
-	//CORRECT-06/22
-	private int LONGCODIGOINDICENCIA =14;
-	
 	
 	private HashMap<String, String> tiposIncidencias = new HashMap<String, String>();
 	private HashMap<String, String> tiposPeticiones = new HashMap<String, String>();
